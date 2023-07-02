@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {background: #1b1b1b;}
+
+        .card {
+            display: block;
+            width: 300px;
+            height: 360px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            position: absolute;
+            left: 40%;
+            top: 20%;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .card *{
+            color: white;
+            padding: 10px;
+        }
+
+        .card .heading {
+            position: block;
+            text-align: center;
+            font-size: 28px;
+            padding: 10px 0 4px 0;
+            position: absolute;
+            top: 20px;
+            left: 40px;
+        } 
+
+        .card .body {
+            padding: 0 15px;
+            position: absolute;
+            top: 90px;
+            letter-spacing: 1px;
+        }
+
+        .shape {
+            position: absolute;
+            border-radius: 12px;
+            width: 280px;
+            height:350px;
+            background: linear-gradient(to top right, orangered, red);
+            top: 21%;
+            left: 41%;
+        }
+    </style>
+
+
+
+</head>
+
+
+
+
+
+<body>
+    <div class="shape"></div>
+    <div class="card">
+        <div class="heading">
+            Lorem, ipsum.
+        </div>
+        <div class="body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam vitae velit voluptatem aliquid repellat! Quas perferendis, atque dolor, architecto quod, harum eveniet mollitia sed exercitationem maiores illum provident necessitatibus quibusdam ducimus sapiente. Iste laboriosam esse eaque beatae dolor similique culpa?
+        </div>
+    </div>
+</body>
+
+</html>

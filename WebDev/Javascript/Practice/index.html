@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Basics</title>
+    <script>
+
+
+        console.clear();
+        function printData() {
+
+            var email = document.getElementById('@').value;
+            var password = document.getElementById('*').value;
+
+            if (email != "" && password != "") {
+                console.log("Email: " + email);
+                console.log("Password: " + password);
+            }
+            else {
+                alert("You're dumb");
+            }
+            
+            return 0;
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <form action="#">
+        <input type="email" name="" id="@" placeholder="email">
+        <br />
+        <input type="password" name="" id="*" placeholder="password">
+        <br />
+        <button type="submit" onclick="printData()">Submit</button>
+    </form>
+</body>
+
+</html>

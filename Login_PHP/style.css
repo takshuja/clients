@@ -1,0 +1,60 @@
+.Form{
+    background-color: #1b1b1b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.info{
+    color: orange;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+/*     justify-content: center; */
+    margin: auto;
+    padding: 60px 0;
+    text-shadow: 1px 4px 15px orangered;
+    animation-name: anim;
+}
+
+.inputs{
+    display:flex;
+    flex-direction: column;
+
+}
+
+#uname, #pwd{
+    border: 1px solid grey;
+    border-radius: 12px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px 8px;
+    color: orangered;
+}
+
+#btn{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #e5e5e5;
+    background: orangered;
+    border:1px solid orangered;
+}
+
+#btn:hover {
+    background-color: rgb(231, 102, 55);
+    border: 1px solid rgb(231, 102, 55);
+    /* text-shadow:  1px 4px 15px aliceblue ,-1px -4px 15px aliceblue ; */
+}
+
+
+#btn:focus {
+    color:red;
+}

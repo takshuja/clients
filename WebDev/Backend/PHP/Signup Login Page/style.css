@@ -1,0 +1,122 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+body {
+    background-color: #080610;
+}
+
+
+.rect {
+    position: absolute;
+    left: 500px;
+    top: 80px;
+    width: 400px;
+    height: 480px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border-radius: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+
+
+.circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.circle:first-child {
+    background: linear-gradient(orangered, red);
+    left: 500px;
+    top: 80px;
+}
+
+.circle:nth-child(0) {
+    background: linear-gradient(skyblue, aqua);
+    left: 760px;
+    top: 350px;
+}
+
+.circle:nth-child(3) {
+    background: linear-gradient(to top left, aqua, blue, aqua);
+    left: 630px;
+    top: 300px;
+}
+
+
+label {
+    display: block;
+    color: #e5e5e5;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    user-select: none;
+}
+
+
+form * {
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    user-select: none;
+}
+
+form {
+    padding: 50px 35px;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+
+::placeholder {
+    color: #e5e5e5;
+}
+
+
+button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #080710;
+    font-size: 18px;
+    padding: 15px 0;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 3px 3px 10px gray, -3px -3px 10px gray;
+    cursor: pointer;
+}
+
+button:active {
+
+    transform: scale(0.99);
+}

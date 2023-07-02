@@ -1,0 +1,6 @@
+.heading h2 {
+    font-weight: 900;
+    display: block;
+    border: 1px solid red;
+    text-align: center;
+}

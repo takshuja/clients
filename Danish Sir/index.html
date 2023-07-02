@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      body {
+        background: #151e3d;
+        /* background: linear-gradient(90deg, #1b1b1b, #151e3d); */
+        background: linear-gradient(
+          45deg,
+          rgba(0, 212, 255, 1) 0%,
+          rgba(11, 3, 45, 1) 100%
+        );
+      }
+
+      .container {
+        height: 100dvh;
+        margin: auto;
+        display: grid;
+        place-items: center;
+      }
+
+      .wrapper {
+        /* height: 300px; */
+        width: 300px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: linear-gradient(
+          to bottom left,
+          rgba(255, 255, 255, 0.01),
+          rgba(255, 255, 255, 0.03)
+        );
+        /* border: 1px solid red; */
+        backdrop-filter: blur(16px) saturation(200%);
+        -webkit-backdrop-filter: blur(16px) saturate(200%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .btn_wrapper {
+        border: 1px solid lime;
+        width: 270px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .btn {
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        border: 1px solid red;
+        border-radius: 12px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="form">
+          <form action="" method="post">
+            <div class="title">
+              <h1>Welcome</h1>
+              <div class="btn_wrapper">
+                <div class="login_btn">
+                  <button type="submit" class="btn">Login</button>
+                </div>
+                <div class="guest_btn">
+                  <button type="submit" class="btn">Continue as Guest</button>
+                </div>
+                <div class="signup_btn">
+                  <button type="submit" class="btn">Signup</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
